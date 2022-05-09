@@ -1,0 +1,9 @@
+{
+  "name": "olatoprofile",
+  "version": "1.0.0",
+  "description": "Olato Profile is Dev platform to showcase my skills for Hiring",
+  "main": "index.html",
+  "repository": "https://github.com/olatocode/olato-profile.git",
+  "author": "Tobi Awosola",
+  "license": "MIT"
+}

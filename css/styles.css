@@ -1,0 +1,83 @@
+/** @format */
+
+body {
+  background: transparent;
+  color: #333;
+  font-size: 1rem;
+  font-family: 'open sans';
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+}
+nav {
+  background-color: dodgerblue;
+  padding: 00.5rem 1rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+.profile-position {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  color: #fff;
+}
+article {
+  box-shadow: 0 0 30px dodgerblue;
+  border-radius: 5px;
+  border: 2px solid dodgerblue;
+  padding: 0.5rem 0.5rem;
+  padding-bottom: 4rem;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+
+button {
+  background-color: dodgerblue;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+  box-shadow: 0 6px #999;
+}
+
+.button {
+  border-radius: 8px;
+}
+.button:hover {
+  background-color: rgb(3, 30, 39);
+}
+
+.button:active {
+  background-color: rgb(3, 30, 39);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+footer {
+  color: dodgerblue;
+}
